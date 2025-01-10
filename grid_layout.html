@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(79, 128, 188, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+  color: aliceblue;
+}
+.container > div.menu {
+  grid-area: menu;
+  text-align: center;
+  color: antiquewhite;
+ 
+}
+.container > div.content {
+  grid-area: content;
+  text-align: center;
+  color: antiquewhite;
+}
+.container > div.content img{
+    height: 200px;
+    width: 400px;
+}
+.container > div.footer {
+  grid-area: footer;
+  text-align: center;
+  color:white;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <div class="header"><h2>My Header</h2></div>
+  <div class="menu"><img src="https://th.bing.com/th/id/OIP.m1Sy3N6cZog2bLiZClaQFgHaFj?pid=ImgDet&w=178&h=133&c=7&dpr=1.5" alt="galaxy">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi molestias eius odit magnam laboriosam debitis ipsam! Fugit eaque hic nobis molestiae quam rem veritatis quos inventore modi recusandae? Vero, molestiae!
+Quas temporibus harum eaque magnam, neque similique libero pariatur ut velit suscipit ullam nam odit quos qui blanditiis, explicabo voluptatibus quis mollitia at sunt autem delectus minus veritatis. </p>
+</div>
+  <div class="content"><h3>Sample !!!!!!!</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita quis blanditiis explicabo? Inventore velit sunt adipisci rem, repellendus quasi, commodi exercitationem mollitia eum labore laudantium provident, deserunt saepe facere?
+  Numquam provident facilis quae, dolorem unde cumque totam cum tempore in quo non iusto harum ullam voluptas enim autem consequatur possimus delectus soluta eum, perspiciatis quaerat mollitia natus similique. Dolore?</p>
+<img src="https://wallpaperaccess.com/full/4072489.jpg" alt="stars"></div>
+  <div class="footer"><p>@vega</p></div>
+</div>
+
+</body>
+</html>
+
+
