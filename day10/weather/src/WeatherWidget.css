@@ -1,0 +1,96 @@
+/* WeatherWidget.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9e3b3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-widget {
+    text-align: center;
+    background-color: #fff5db;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .weather-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .weather-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f9e3b3;
+    font-weight: bold;
+  }
+  
+  .weather-header .unit-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .weather-header .unit-toggle button:hover {
+    text-decoration: underline;
+  }
+  
+  .weather-days {
+    display: flex;
+  }
+  
+  .weather-day {
+    flex: 1;
+    padding: 15px 10px;
+    text-align: center;
+    border-right: 1px solid #f0e0c0;
+  }
+  
+  .weather-day:last-child {
+    border-right: none;
+  }
+  
+  .condition {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .temp {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+  }
+  
