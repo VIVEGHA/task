@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Arial", sans-serif;
+  
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://www.bing.com/th/id/OGC.11cabb81f65098d8e0c9f8db8a46a24d?pid=1.7&rurl=https%3a%2f%2fgifdb.com%2fimages%2fhigh%2fblack-background-space-stars-4l34z6vp3yv6qv3x.gif&ehk=Rdvql8mzXnx0UPH7%2f8sdFrENG4tlIM9uqBM%2fZtZNqnw%3d');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white;
+}
+
+
+html {
+  font-size: 16px; 
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+button:hover, .button:hover {
+  transform: scale(1.05); 
+}
